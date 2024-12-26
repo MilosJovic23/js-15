@@ -1,6 +1,4 @@
-//
 
-//
 
 $(document).ready(function () {
 	// POST GET
@@ -24,7 +22,7 @@ $(document).ready(function () {
 			job: "programer",
 		},
 		success: function (response) {
-			// console.log(response);
+			console.log(response);
 		},
 	});
 
@@ -33,8 +31,7 @@ $(document).ready(function () {
 			url: "https://reqres.in/api/users/2",
 			type: "DELETE",
 			success: function (response) {
-				console.log("test");
-				response;
+				console.log(response);
 			},
 		});
 	});
@@ -57,4 +54,3 @@ $(document).ready(function () {
 	});
 });
 
-// $("#imeImejl").text(response.data.email+response.data.first_name)
